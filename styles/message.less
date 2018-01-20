@@ -13,9 +13,6 @@
     overflow: hidden; //щоб контент не схлопувався
   }
 
-  &__small-text {
-    border-radius: 100px;
-  }
 
   &__friend-photo {
     margin-left: 16px;
@@ -33,7 +30,9 @@
     padding: 7px 12px 4px 12px;
     margin: 0 0 1px 52px;
     //padding: 5px 12px 6px 12px; //не гарно
-
+    &_small {
+      border-radius: 100px;
+    }
     &_first {
       border-bottom-left-radius: 0;
     }
@@ -59,7 +58,9 @@
     margin: 0 0 1px 0;
     float: right;
     clear: both;
-
+    &_small {
+      border-radius: 100px;
+    }
     &_first {
       border-bottom-right-radius: 0;
     }
