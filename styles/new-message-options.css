@@ -1,14 +1,12 @@
-.new-message {
-  border-top: 2px solid #e5e5e5;
-}
 
-.new-message__option{
+
+.new-message-options{
   display: flex;
   align-items: center;
   height: 40px;
   margin-top: -7px;
   }
-.new-message__option_picture {
+.new-message-options__picture {
    background-image: url("../images/Picture.svg");
    margin-left: 16px;
    margin-right: 10px;
@@ -21,7 +19,7 @@
   text-indent: -9999px;
  }
 
-.new-message__option_gif {
+.new-message-options__gif {
    background-image: url("../images/Gif.svg");
    width: 21px;
    height: 16px;
@@ -33,7 +31,7 @@
   text-indent: -9999px;
  }
 
-.new-message__option_smile {
+.new-message-options__smile {
    background-image: url("../images/Smile.svg");
    width: 16px;
    height: 16px;
@@ -45,7 +43,7 @@
   text-indent: -9999px;
  }
 
-.new-message__option_calendar {
+.new-message-options__calendar {
    background-image: url("../images/Calendar.svg");
    width: 16px;
    height: 18px;
@@ -57,7 +55,7 @@
   text-indent: -9999px;
  }
 
-.new-message__option_camera {
+.new-message-options__camera {
    background-image: url("../images/Camera.svg");
    width: 21px;
    height: 17px;
