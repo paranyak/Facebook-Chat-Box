@@ -1,0 +1,63 @@
+.message {
+  max-width: 225px;
+  word-break: break-all;
+}
+.message_friend {
+  padding-top: 15px;
+}
+.message_you {
+  padding-top: 15px;
+  margin-left: 101px;
+  margin-right: 16px;
+  max-width: 175px;
+  overflow: hidden;
+}
+.message__small-text {
+  border-radius: 100px;
+}
+.message__friend-photo {
+  margin-left: 16px;
+  margin-right: 8px;
+  float: left;
+}
+.message__friend-text {
+  display: table;
+  min-height: 17px;
+  font-size: 12px;
+  color: #353535;
+  border-radius: 14px;
+  background-color: #f3f3f3;
+  padding: 7px 12px 4px 12px;
+  margin: 0 0 1px 52px;
+}
+.message__friend-text_first {
+  border-bottom-left-radius: 0;
+}
+.message__friend-text_middle {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.message__friend-text_last {
+  border-top-left-radius: 0;
+}
+.message__your-text {
+  display: inline-block;
+  font-size: 12px;
+  color: #ffffff;
+  border-radius: 14px;
+  background-color: #2979ff;
+  padding: 7px 12px 6px 13px;
+  margin: 0 0 1px 0;
+  float: right;
+  clear: both;
+}
+.message__your-text_first {
+  border-bottom-right-radius: 0;
+}
+.message__your-text_middle {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.message__your-text_last {
+  border-top-right-radius: 0;
+}

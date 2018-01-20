@@ -1,0 +1,25 @@
+.create-message {
+  height: 22px;
+  padding-top: 7px;
+}
+.create-message__text {
+  padding: 0 0 0 16px;
+  margin: 0;
+  width: 276px;
+  border: none;
+}
+.create-message__text:focus {
+  outline: 0;
+}
+.create-message__text::placeholder {
+  width: 102px;
+  height: 17px;
+  font-family: 'OpenSans', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #cdcdcd;
+}
