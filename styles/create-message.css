@@ -3,9 +3,9 @@
   padding-top: 7px;
 }
 .create-message__text {
-  padding: 0 0 0 16px;
+  padding: 0 16px 0 16px;
   margin: 0;
-  width: 276px;
+  width: 260px;
   border: none;
 }
 .create-message__text:focus {
