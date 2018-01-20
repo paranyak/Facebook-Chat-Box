@@ -15,9 +15,8 @@
 }
 .user__name {
   margin: 0;
-  display: inline;
+  display: inline-block;
   width: 87px;
-  height: 17px;
   font-size: 12px;
   font-weight: bold;
   font-style: normal;
@@ -25,4 +24,5 @@
   line-height: 32px;
   letter-spacing: normal;
   color: #ffffff;
+  overflow: hidden;
 }
