@@ -1,18 +1,36 @@
 .message {
   max-width: 225px;
   word-break: break-word;
+  clear:both;
+
 }
 .message_friend {
   padding-top: 15px;
 }
+
+
 .message_you {
   padding-top: 15px;
   margin-left: 101px;
   margin-right: 16px;
   max-width: 175px;
   overflow: hidden;
+float: right;
 }
-.message__small-text {
+
+.message_you *{
+  display: inline-block;
+  font-size: 12px;
+color: #ffffff;
+  border-radius: 14px;
+  background-color: #2979ff;
+  padding: 7px 12px 6px 13px;
+  margin: 0 0 1px 0;
+  float: right;
+  clear: both;
+}
+
+.message_small {
   border-radius: 100px;
 }
 .message__friend-photo {
@@ -40,17 +58,7 @@
 .message__friend-text_last {
   border-top-left-radius: 0;
 }
-.message__your-text {
-  display: inline-block;
-  font-size: 12px;
-  color: #ffffff;
-  border-radius: 14px;
-  background-color: #2979ff;
-  padding: 7px 12px 6px 13px;
-  margin: 0 0 1px 0;
-  float: right;
-  clear: both;
-}
+
 .message__your-text_first {
   border-bottom-right-radius: 0;
 }

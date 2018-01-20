@@ -4,7 +4,7 @@
   width: 99px;
   height: 32px;
 }
-.chat-options_new-message {
+.new-message__option {
   width: 293px;
   height: 40px;
   margin-top: -7px;
@@ -43,33 +43,4 @@
   height: 18px;
   margin-right: 7px;
 }
-.chat-options__item_picture {
-  background-image: url("../images/Picture.svg");
-  margin-left: 16px;
-  margin-right: 10px;
-  width: 16px;
-  height: 16px;
-}
-.chat-options__item_gif {
-  background-image: url("../images/Gif.svg");
-  width: 21px;
-  height: 16px;
-  margin-right: 10px;
-}
-.chat-options__item_smile {
-  background-image: url("../images/Smile.svg");
-  width: 16px;
-  height: 16px;
-  margin-right: 10px;
-}
-.chat-options__item_calendar {
-  background-image: url("../images/Calendar.svg");
-  width: 16px;
-  height: 18px;
-  margin-right: 10px;
-}
-.chat-options__item_camera {
-  background-image: url("../images/Camera.svg");
-  width: 21px;
-  height: 17px;
-}
+
